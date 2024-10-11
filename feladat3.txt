@@ -1,0 +1,50 @@
+
+.szinek{
+    display: flex;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.zold{
+    height: 300px;
+    background-color: green;
+    flex: 2;
+
+}
+.sarga{
+    height: 300px;
+    background-color: yellow;
+    flex: 3;
+
+}
+.lila{
+    height: 300px;
+    background-color: purple;
+    flex: 2;
+
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feladat3.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="szinek">
+        <div class="zold"></div>
+        <div class="sarga"></div>
+        <div class="lila"></div>
+      </div>
+
+    
+</body>
+</html>
